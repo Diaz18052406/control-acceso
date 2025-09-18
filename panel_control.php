@@ -9,8 +9,8 @@
     <div class="sidebar">
         <h2>Inicio</h2>
         <ul>
-            <li><a href="registro.php">Registrar Usuario</a></li>
-            <li><a href="historial.php">Historial</a></li>
+            <li><a href="registro_usuario.php">Registrar Usuario</a></li>
+            <li><a href="historial_acceso.php">Historial</a></li>
             <li><a href="#">Acceso facial</a></li>
             <li><a href="#">Configuración</a></li>
         </ul>
@@ -55,6 +55,7 @@
                 <!-- más filas -->
             </tbody>
         </table>
+
 
         <img src="assets/logo.png" class="logo-bottom">
     </div>

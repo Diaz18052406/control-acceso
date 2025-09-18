@@ -1,0 +1,78 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #cfd8e2;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2b2b2b;
+}
+
+/* Contenedor del formulario */
+.formulario {
+    width: 350px;
+    background-color: #a6a6af;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Etiquetas de los campos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Botón de iniciar sesión */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Enlace "Olvidaste tu contraseña" */
+.enlace {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+/* Logo en la esquina inferior derecha */
+.logo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+}

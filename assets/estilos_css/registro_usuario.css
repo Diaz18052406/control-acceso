@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    background: #f4f4f4;
+}
+
+.sidebar {
+    width: 200px;
+    background: #dce0ea;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul li a.activo,
+.sidebar ul li a:hover {
+    color: #4a63d6;
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 40px;
+    flex: 1;
+    background: #f0eeee;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: white;
+}
+
+.fecha-hora {
+    display: flex;
+    gap: 20px;
+}
+
+.fecha-hora div {
+    flex: 1;
+}
+
+button {
+    margin-top: 25px;
+    background: #709BE7;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background: #4a63d6;
+}
