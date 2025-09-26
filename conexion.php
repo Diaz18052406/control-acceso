@@ -2,7 +2,7 @@
 $host = "localhost";
 $puerto = "3308";
 $usuario = "root";
-$password = ""; // no tiene contraseña establecida //
+$password = "12345"; 
 $bd = "control_acceso";
 
 $conn = new mysqli($host, $usuario, $password, $bd, $puerto);

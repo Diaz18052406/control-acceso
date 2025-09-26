@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+if (!isset($_SESSION['usuario'])) {
+    header("Location: index.php");
+    exit;
+}
+?><!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,8 +18,8 @@
         <ul>
             <li><a href="registro_usuario.php">Registrar Usuario</a></li>
             <li><a href="historial_acceso.php">Historial</a></li>
-            <li><a href="#">Acceso facial</a></li>
-            <li><a href="#">Configuración</a></li>
+            <li><a href="acceso_facial.php">Acceso facial</a></li>
+            <li><a href="configuracion.php">Configuración</a></li>
         </ul>
     </div>
 
@@ -57,7 +64,7 @@
         </table>
 
 
-        <img src="assets/logo.png" class="logo-bottom">
+        <img src="assets/logo.png.jpeg" class="logo-bottom">
     </div>
 </body>
 </html>

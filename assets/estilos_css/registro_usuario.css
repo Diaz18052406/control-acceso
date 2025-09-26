@@ -85,5 +85,43 @@ button {
 }
 
 button:hover {
-    background: #4a63d6;
+    background: #3d10b8;
+}
+.logo-bottom {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 250px;        
+    opacity: 0.6;         
+    z-index: 10;          
+    margin-top: 30px;       
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+/* Estilos para la cámara */
+.captura-rostro {
+    margin-top: 200px;
+    background: #ffffff;
+    padding: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+video, canvas {
+    border-radius: 8px;
+    border: 100px solid #ccc;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#capturar {
+    background-color: #709BE7;
+    margin-top: 10px;
+}
+
+#capturar:hover {
+    background-color: #3d10b8;
 }

@@ -1,4 +1,10 @@
 <?php
+session_start();
+
+if (!isset($_SESSION['usuario'])) {
+    header("Location: index.php");
+    exit;
+}
 include("conexion.php");
 
 $filtro = "";
@@ -36,10 +42,10 @@ $resultado = $conn->query($sql);
     <div class="menu-lateral">
         <ul>
             <li><a href="panel_control.php">Inicio</a></li>
-            <li><a href="registrar_usuario.php">Registrar Usuario</a></li>
+            <li><a href="registro_usuario.php">Registrar Usuario</a></li>
             <li><a href="historial_acceso.php" class="activo">Historial</a></li>
-            <li><a href="#">Acceso Facial</a></li>
-            <li><a href="#">Configuración</a></li>
+            <li><a href="acceso_facial.php">Acceso Facial</a></li>
+            <li><a href="configuracion.php">Configuración</a></li>
         </ul>
     </div>
 

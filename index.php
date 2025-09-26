@@ -27,7 +27,7 @@
         <?php if (!empty($error)) echo "<p style='color:red; text-align:center;'>$error</p>"; ?>
     </div>
 
-    <img src="assets/logo.png" class="logo" alt="Logo control acceso">
+    <img src="assets/logo.png.jpeg" class="logo" alt="Logo control acceso">
 </body>
 </html>
 <?php
